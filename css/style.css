@@ -90,6 +90,21 @@ nav ul li a {
   top: 50%;
   transform: translateY(-50%);
   font-family: helvetica;
-  width: 60%;
+  width: 40%;
+  color: white;
+}
 
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.bordergreen {
+  background-color: #7BBC00;
+  border-radius: 5px;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  font-size: 10px;
 }
