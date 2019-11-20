@@ -152,6 +152,7 @@ h1 {
   width: 33%;
   text-align: center;
   margin-top: 150px;
+
 }
 
 .container-section img {
@@ -169,4 +170,12 @@ hr {
   margin:auto;
   background-color: black;
   margin-bottom: 15px;
+}
+
+.container-section p {
+  font-size: 15px;
+  color: #A8A8A8;
+  font-weight: bold;
+  width: 98%;
+  margin:auto;
 }
