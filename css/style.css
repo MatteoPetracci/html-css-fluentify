@@ -137,8 +137,6 @@ h1 {
 .container-section {
   width: 75%;
   margin: 0 auto;
-  height: 700px;
-
 }
 
 .container-section::after {
@@ -177,5 +175,37 @@ hr {
   font-size: 15px;
   color: #A8A8A8;
   font-weight: bold;
+}
+
+.hr-width {
+  background-color: #7BBC00;
+  width: 98%;
+  margin-top: 30px;
+}
+
+/* seconda sezione */
+
+.float-left {
+  float: left;
+  /* width: 50%; */
+}
+
+.container-section-2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-section-2 {
+  width: 75%;
   margin:auto;
+}
+
+.container-section-2 img {
+  width: 70%;
+}
+
+.box {
+  width:300px;
+  height: 300px;
 }
