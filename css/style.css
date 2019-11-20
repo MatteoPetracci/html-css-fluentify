@@ -218,3 +218,8 @@ hr {
   width: 80%;
   margin: 15px 0 15px 0;
 }
+
+.container-section-2 a {
+  color: blue;
+  text-decoration: underline;
+}
