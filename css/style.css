@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 400px;
+  background-color: #0D325A;
+  width: 100%;
+  background-image: url(../img/oldman.png);
+  background-size: 50%;
+  background-position: 102% 110%;
+  background-repeat: no-repeat;
+}
+
+.ul-style {
+  list-style: none;
+}
+
+.header-top {
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  content: "";
+  display: table;
+  clear: both;
+  width: 80%;
+  margin: auto;
+}
+
+.header-top-right, .header-top-left {
+  float: left;
+}
+
+nav ul li {
+  display: inline-block;
+}
