@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: helvetica, sans-serif;
 }
+
 header {
   height: 425px;
   background-color: #0D325A;
@@ -50,7 +52,9 @@ nav ul li {
   height: 30px;
   margin-right: 30px;
 }
+
 /* header top right */
+
 .header-top-right {
   float: right;
   margin-top: 20px;
@@ -74,7 +78,7 @@ nav ul li a {
   padding: 10px 30px;
 }
 
-/* headerbottom */
+/* header middle */
 
 .header-middle {
   position: relative;
@@ -126,5 +130,4 @@ h1 {
 
 .header-bottom-text h2 {
   margin-bottom: 10px;
-
 }
