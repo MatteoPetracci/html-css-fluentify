@@ -239,3 +239,21 @@ footer {
   background-color: #ece8e8;
   height: 150px;
 }
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left-footer {
+  float: left;
+  width: 75%;
+  margin: auto;
+  line-height: 75%;
+}
+
+.container-footer {
+  width: 75%;
+  margin: auto;
+}
