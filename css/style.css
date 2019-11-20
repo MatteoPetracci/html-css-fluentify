@@ -12,6 +12,8 @@ header {
   background-size: 50%;
   background-position: 102% 110%;
   background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+
 }
 
 .ul-style {
@@ -22,17 +24,48 @@ header {
   height: 70px;
   line-height: 70px;
   color: white;
-  content: "";
-  display: table;
-  clear: both;
   width: 80%;
   margin: auto;
 }
 
-.header-top-right, .header-top-left {
+.header-top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-top-left {
   float: left;
+  margin-top: 20px;
+  font-size: 8px;
+
 }
 
 nav ul li {
   display: inline-block;
+  padding-right: 10px;
+  text-transform: uppercase;
+
+}
+
+.logo a img {
+  height: 30px;
+  margin-right: 30px;
+}
+/* header top right */
+.header-top-right {
+  float: right;
+  margin-top: 20px;
+  font-size: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-top-right nav ul li:last-child a {
+  background-color: #7BBC00;
+  border-radius: 5px;
+  padding: 10px;
 }
