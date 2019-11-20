@@ -159,7 +159,14 @@ h1 {
 }
 
 .container-section h2 {
-  width: 80%;
   font-size: 23px;
   color: #7BBC00;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 60px;
+  margin:auto;
+  background-color: black;
+  margin-bottom: 15px;
 }
