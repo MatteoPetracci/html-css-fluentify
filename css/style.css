@@ -131,3 +131,35 @@ h1 {
 .header-bottom-text h2 {
   margin-bottom: 10px;
 }
+
+/* main */
+
+.container-section {
+  width: 80%;
+  margin: 0 auto;
+  height: 700px;
+
+}
+
+.container-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-float-left {
+  float: left;
+  width: 33%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.container-section img {
+  height: 150px;
+}
+
+.container-section h2 {
+  width: 80%;
+  font-size: 23px;
+  color: #7BBC00;
+}
